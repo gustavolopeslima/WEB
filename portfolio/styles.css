@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preechimento padrão */
+}
+
+header {
+    background-color: black;
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: purple;
+}
+
+.foto-perfil {
+    width: 100%; /* Largura total */
+    max-width: 350px; /* Largura maxima */
+    height: auto;
+    display: block; /* Exibe a imagem como um bloco */
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.contato-btn {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    text-decoration: none; /* Remove sublinhado do texto do botão */
+}
+
+.contato-btn:hover {
+    background-color: #a300a3; /* Cor ao passar o mouse sobre o botão */
+}
+
+form {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+form label {
+    margin: 10px 0 5px; 
+}
+
+form input, form textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a300a3;
+}
+
+.observacao {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: gray;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
